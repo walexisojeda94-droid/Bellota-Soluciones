@@ -1,0 +1,10 @@
+bellota-soluciones-digitales/
+├── index.html
+├── portfolio.html
+├── styles.css
+├── script.js
+└── img/
+    ├── celina-aguirre.jpg
+    ├── prode-mundial.jpg
+    ├── mi-galeria.jpg
+    └── turnero.jpg
