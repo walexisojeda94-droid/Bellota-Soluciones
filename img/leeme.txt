@@ -1,8 +1,9 @@
 bellota-soluciones-digitales/
 ├── index.html
 ├── portfolio.html
-├── styles.css
+├── portfolio.css
 ├── script.js
+├── styles.css
 └── img/
     ├── celina-aguirre.jpg
     ├── prode-mundial.jpg
