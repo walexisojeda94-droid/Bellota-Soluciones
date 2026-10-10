@@ -15,95 +15,119 @@
   <header class="site-header">
     <div class="container nav-wrap">
       <a class="brand" href="#inicio" aria-label="Bellota, inicio">
-        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M12 17c1-7 15-7 16 0" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M11 18h18c1 9-4 14-9 14s-10-5-9-14Z" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M20 27c-1-5 1-8 5-11M20 25c-2-3-4-4-6-4" fill="none" stroke="#00BFA6" stroke-width="2" stroke-linecap="round"/></svg></span>
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M12 17c1-7 15-7 16 0" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M11 18h18c1 9-4 14-9 14s-10-5-9-14Z" fill="currentColor" opacity=".16"/><path d="M11 18h18c1 9-4 14-9 14s-10-5-9-14Z" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M20 27c-1-5 1-8 5-11M20 25c-2-3-4-4-6-4" fill="none" stroke="#00BFA6" stroke-width="2" stroke-linecap="round"/></svg></span>
         <span class="brand-copy"><strong>bellota</strong><small>soluciones digitales</small></span>
       </a>
       <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
       <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
         <a href="#proyectos">Proyectos</a>
         <a href="#servicios">Servicios</a>
         <a href="portfolio.html">Portfolio</a>
         <a href="#contacto">Contacto</a>
-        <a class="nav-cta" href="#contacto">Hablemos</a>
+        <a class="nav-cta" href="#contacto">Hablemos <span aria-hidden="true">↗</span></a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="hero" id="inicio">
-      <div class="container">
-        <h1>Webs y herramientas digitales a medida.</h1>
-        <p class="hero-lead">Diseñamos y programamos páginas, sistemas y automatizaciones para emprendimientos y profesionales. Cada proyecto parte de un problema concreto.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#proyectos">Ver proyectos</a>
-          <a class="button button-secondary" href="#contacto">Contanos tu idea</a>
+    <section class="hero section" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="eyebrow-dot"></span> Ideas que se convierten en soluciones</span>
+          <h1>Tu próximo paso digital <span>empieza acá.</span></h1>
+          <p class="hero-lead">Creamos páginas web, sistemas y herramientas digitales pensadas para resolver necesidades reales de emprendimientos y profesionales.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#proyectos">Ver proyectos <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="#servicios">Conocer servicios</a>
+          </div>
+          <div class="hero-note"><span class="note-icon">✳</span><span>Soluciones claras, funcionales y hechas a medida.</span></div>
+        </div>
+        <div class="hero-visual" aria-label="Ilustración abstracta de soluciones digitales">
+          <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+          <div class="visual-core"><span class="core-symbol">b.</span><span class="core-label">IDEAS EN MOVIMIENTO</span></div>
+          <div class="float-card card-code"><span class="mini-icon">&lt;/&gt;</span><span><strong>Desarrollo web</strong><small>De la idea a la pantalla</small></span><span class="status-dot"></span></div>
+          <div class="float-card card-chart"><span class="chart-bars"><i></i><i></i><i></i><i></i></span><span><strong>Datos más claros</strong><small>Decisiones con información</small></span></div>
+          <div class="float-card card-check"><span class="check-icon">✓</span><span><strong>Menos tareas manuales</strong><small>Más tiempo para lo importante</small></span></div>
+          <span class="visual-spark spark-a">✳</span><span class="visual-spark spark-b">✦</span>
         </div>
       </div>
+      <div class="container hero-bottom"><span>DISEÑO · DESARROLLO · AUTOMATIZACIÓN</span><span class="scroll-hint">Explorá las soluciones <span>↓</span></span></div>
     </section>
 
-    <section class="projects-section" id="proyectos">
+    <section class="section projects-section" id="proyectos">
       <div class="container">
-        <h2>Proyectos en funcionamiento</h2>
+        <div class="section-heading">
+          <div><span class="eyebrow">TRABAJO EN MARCHA</span><h2>Proyectos que ya están <span>en acción.</span></h2></div>
+          <p>Una selección de soluciones creadas para necesidades concretas. Cada proyecto empieza con un problema y termina en algo que se puede usar.</p>
+        </div>
         <div class="projects-grid">
+          <a class="project-card project-turnero" href="#" data-placeholder="turnero" aria-label="Turnero web, enlace pendiente">
+            <div class="project-art art-calendar"><div class="calendar-window"><div class="window-top"><i></i><i></i><i></i></div><div class="calendar-title">Reservas</div><div class="calendar-grid"><i></i><i></i><i></i><i></i><i></i><i></i><i class="selected"></i><i></i><i></i></div></div><span class="art-badge">01 / WEB APP</span></div>
+            <div class="project-info"><div><h3>Turnero web</h3><p>Organización simple de turnos y reservas.</p></div><span class="arrow-circle">↗</span></div>
+          </a>
           <a class="project-card" href="https://celinaaguirreph.onrender.com/" target="_blank" rel="noopener noreferrer">
-            <div class="browser"><div class="browser-bar"><i></i><i></i><i></i></div><img src="img/celina-aguirre.jpg" alt="Captura de la web Celina Aguirre PH" loading="lazy"></div>
-            <div class="project-info"><div><h3>Celina Aguirre PH</h3><p>Galería y venta de fotografías para eventos.</p></div><span class="project-link">Visitar</span></div>
+            <div class="project-art art-photo"><div class="photo-frame"><div class="photo-sun"></div><div class="photo-hill"></div><div class="photo-hill hill-two"></div><span>CAP.</span></div><span class="art-badge">02 / FOTOGRAFÍA</span></div>
+            <div class="project-info"><div><h3>Celina Aguirre PH</h3><p>Galería y venta de fotografías para eventos.</p></div><span class="arrow-circle">↗</span></div>
           </a>
           <a class="project-card" href="https://pronostico-mundial-2026.streamlit.app/" target="_blank" rel="noopener noreferrer">
-            <div class="browser"><div class="browser-bar"><i></i><i></i><i></i></div><img src="img/prode-mundial.jpg" alt="Captura de la aplicación Prode Mundial 2026" loading="lazy"></div>
-            <div class="project-info"><div><h3>Prode Mundial 2026</h3><p>Pronósticos, puntajes y ranking compartido.</p></div><span class="project-link">Visitar</span></div>
+            <div class="project-art art-prode"><div class="score-card"><span class="score-label">PRODE · MUNDIAL 2026</span><div class="score-teams"><b>ARG</b><span>VS</span><b>?</b></div><div class="score-line"></div><div class="score-caption">Ranking en vivo</div></div><span class="art-badge">03 / APLICACIÓN</span></div>
+            <div class="project-info"><div><h3>Prode Mundial 2026</h3><p>Pronósticos, puntajes y ranking compartido.</p></div><span class="arrow-circle">↗</span></div>
           </a>
           <a class="project-card" href="https://walexisojeda94-droid.github.io/Mi-Galeria/" target="_blank" rel="noopener noreferrer">
-            <div class="browser"><div class="browser-bar"><i></i><i></i><i></i></div><img src="img/mi-galeria.jpg" alt="Captura de la web Mi Galería" loading="lazy"></div>
-            <div class="project-info"><div><h3>Mi Galería</h3><p>Una experiencia visual para explorar imágenes.</p></div><span class="project-link">Visitar</span></div>
-          </a>
-          <a class="project-card" href="https://mi-turnero-celina.netlify.app/" target="_blank" rel="noopener noreferrer">
-            <div class="browser"><div class="browser-bar"><i></i><i></i><i></i></div><img src="img/turnero.jpg" alt="Captura del Turnero web" loading="lazy"></div>
-            <div class="project-info"><div><h3>Turnero web</h3><p>Organización simple de turnos y reservas.</p></div><span class="project-link">Visitar</span></div>
+            <div class="project-art art-gallery"><div class="gallery-window"><div class="gallery-top"><span>mi galería</span><span>•••</span></div><div class="gallery-pics"><i></i><i></i><i></i><i></i></div></div><span class="art-badge">04 / EXPERIENCIA WEB</span></div>
+            <div class="project-info"><div><h3>Mi Galería</h3><p>Una experiencia visual para explorar imágenes.</p></div><span class="arrow-circle">↗</span></div>
           </a>
         </div>
+        <div class="section-footnote"><span class="tiny-star">✳</span> ¿Tenés una idea en mente? Podemos convertirla en tu próximo proyecto.</div>
       </div>
     </section>
 
-    <section class="services-section" id="servicios">
-      <div class="container services-layout">
-        <div class="services-intro">
-          <h2>Qué podemos hacer</h2>
+    <section class="section services-section" id="servicios">
+      <div class="container">
+        <div class="section-heading">
+          <div><span class="eyebrow">QUÉ PODEMOS HACER</span><h2>Herramientas para <span>avanzar.</span></h2></div>
           <p>Desde una presencia online profesional hasta sistemas que simplifican tareas y organizan información.</p>
         </div>
-        <ul class="services-list">
-          <li><h3>Landing page</h3><p>Una página enfocada en presentar tu propuesta y convertir visitas en consultas.</p></li>
-          <li><h3>Web institucional</h3><p>Un espacio profesional para mostrar tu negocio, tus servicios y tus formas de contacto.</p></li>
-          <li><h3>Portfolio profesional</h3><p>Tus trabajos, experiencia y proyectos en una web clara y personalizada.</p></li>
-          <li><h3>Catálogo digital con WhatsApp</h3><p>Mostrá productos o servicios y recibí consultas y pedidos por WhatsApp.</p></li>
-          <li><h3>Tienda online</h3><p>Vendé desde tu propia tienda con catálogo, carrito y opciones de pago.</p></li>
-          <li><h3>Sistema de turnos y reservas</h3><p>Agendas, horarios y solicitudes de reserva en un solo lugar.</p></li>
-          <li><h3>Automatización de Excel</h3><p>Menos tareas repetitivas: limpieza de datos, fórmulas y procesos automáticos.</p></li>
-          <li><h3>Dashboard de Power BI</h3><p>Datos dispersos convertidos en indicadores y reportes visuales.</p></li>
-          <li><h3>Aplicación web personalizada</h3><p>Una herramienta a medida para resolver un proceso específico de tu actividad.</p></li>
-          <li><h3>Invitaciones digitales</h3><p>Invitaciones online personalizadas con todos los detalles de tu evento.</p></li>
-        </ul>
+        <div class="services-grid">
+          <article class="service-card"><span class="service-number">01</span><span class="service-icon">↗</span><h3>Landing page</h3><p>Una página enfocada en presentar tu propuesta y convertir visitas en consultas.</p></article>
+          <article class="service-card"><span class="service-number">02</span><span class="service-icon">▤</span><h3>Web institucional</h3><p>Un espacio profesional para mostrar tu negocio, tus servicios y tus formas de contacto.</p></article>
+          <article class="service-card"><span class="service-number">03</span><span class="service-icon">▧</span><h3>Portfolio profesional</h3><p>Presentá tus trabajos, experiencia y proyectos en una web clara y personalizada.</p></article>
+          <article class="service-card"><span class="service-number">04</span><span class="service-icon">☷</span><h3>Catálogo digital con WhatsApp</h3><p>Mostrá productos o servicios y recibí consultas y pedidos directamente por WhatsApp.</p></article>
+          <article class="service-card"><span class="service-number">05</span><span class="service-icon">⌑</span><h3>Tienda online</h3><p>Vendé desde tu propia tienda con catálogo, carrito y opciones de pago integradas.</p></article>
+          <article class="service-card"><span class="service-number">06</span><span class="service-icon">◷</span><h3>Sistema de turnos y reservas</h3><p>Organizá agendas, horarios y solicitudes de reserva en un solo lugar.</p></article>
+          <article class="service-card"><span class="service-number">07</span><span class="service-icon">▦</span><h3>Automatización de Excel</h3><p>Reducí tareas repetitivas con limpieza de datos, fórmulas y procesos automatizados.</p></article>
+          <article class="service-card"><span class="service-number">08</span><span class="service-icon">▥</span><h3>Dashboard de Power BI</h3><p>Transformá datos dispersos en indicadores y reportes visuales para decidir mejor.</p></article>
+          <article class="service-card"><span class="service-number">09</span><span class="service-icon">⌘</span><h3>Aplicación web personalizada</h3><p>Una herramienta a medida para resolver un proceso específico de tu actividad.</p></article>
+          <article class="service-card"><span class="service-number">10</span><span class="service-icon">✳</span><h3>Invitaciones digitales</h3><p>Invitaciones online personalizadas para compartir los detalles de tu evento.</p></article>
+        </div>
       </div>
     </section>
 
-    <section class="contact-section" id="contacto">
+    <section class="contact-section section" id="contacto">
       <div class="container contact-panel">
-        <div class="contact-copy">
-          <h2>Contanos qué necesitás resolver.</h2>
-          <p>Te respondemos con una propuesta clara, sin vueltas.</p>
-          <a class="button button-light" href="https://wa.me/5491168023683" target="_blank" rel="noopener noreferrer">Escribir por WhatsApp</a>
-        </div>
+        <div class="contact-copy"><span class="eyebrow eyebrow-light">HAGAMOS ALGO ÚTIL</span><h2>Tu idea merece<br><span>tomar forma.</span></h2><p>Contame qué necesitás resolver y buscamos una solución digital que tenga sentido para vos.</p><a class="button button-light" href="https://wa.me/alexiis_ojeda?s=t" target="_blank" rel="noopener noreferrer">Hablemos por WhatsApp <span>↗</span></a></div>
         <div class="contact-details">
-          <div class="contact-detail"><small>WhatsApp</small><a href="https://wa.me/5491168023683" target="_blank" rel="noopener noreferrer">11 6802-3683</a></div>
-          <div class="contact-detail"><small>Teléfono</small><a href="tel:+541168023683">11 6802-3683</a></div>
+          <div class="contact-detail"><span class="contact-detail-icon">⌕</span><div><small>WHATSAPP</small><a href="https://wa.me/alexiis_ojeda?s=t" target="_blank" rel="noopener noreferrer">Escribime por WhatsApp ↗</a></div></div>
+          <div class="contact-detail"><span class="contact-detail-icon">@</span><div><small>EMAIL</small><span class="pending-value">Email a definir</span></div></div>
+          <div class="contact-detail"><span class="contact-detail-icon">⌖</span><div><small>TELÉFONO</small><a href="tel:+541168023683">11 6802-3683</a></div></div>
+          <div class="contact-detail"><span class="contact-detail-icon">◎</span><div><small>INSTAGRAM</small><span class="pending-value">Perfil a definir</span></div></div>
         </div>
+        <div class="contact-decoration">b.</div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-bottom"><span>© <span id="year"></span> Bellota Soluciones Digitales</span><nav class="footer-nav" aria-label="Navegación del pie"><a href="#proyectos">Proyectos</a><a href="#servicios">Servicios</a><a href="portfolio.html">Portfolio</a><a href="#contacto">Contacto</a></nav></div>
+    <div class="container footer-main">
+      <a class="brand brand-footer" href="#inicio"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M12 17c1-7 15-7 16 0" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M11 18h18c1 9-4 14-9 14s-10-5-9-14Z" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M20 27c-1-5 1-8 5-11M20 25c-2-3-4-4-6-4" fill="none" stroke="#00BFA6" stroke-width="2" stroke-linecap="round"/></svg></span><span class="brand-copy"><strong>bellota</strong><small>soluciones digitales</small></span></a>
+      <p>Ideas reales. Soluciones digitales.</p>
+      <nav class="footer-nav" aria-label="Navegación del pie"><a href="#inicio">Inicio</a><a href="#proyectos">Proyectos</a><a href="#servicios">Servicios</a><a href="portfolio.html">Portfolio</a><a href="#contacto">Contacto</a></nav>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> Bellota Soluciones Digitales</span><span>Hecho con intención <span class="footer-heart">✳</span></span></div>
   </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/alexiis_ojeda?s=t" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.8a8.4 8.4 0 0 1-12.4 7.4L3 20.5l1.3-4.9a8.4 8.4 0 1 1 16.2-3.8Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M8.2 7.7c.2-.4.4-.4.7-.4h.5c.2 0 .4.1.5.4l.8 1.8c.1.2.1.4-.1.6l-.6.7c-.2.2-.2.4 0 .6.5.9 1.3 1.6 2.2 2.1.2.1.4.1.6-.1l.8-.9c.2-.2.4-.2.6-.1l1.7.8c.3.1.4.3.4.5 0 .4-.2 1.2-.7 1.6-.5.5-1.2.7-1.9.6-1.1-.2-2.5-.9-3.8-2.1-1.4-1.3-2.2-2.8-2.4-3.8-.2-.8.1-1.6.7-2.3Z" fill="currentColor"/></svg></a>
   <script src="script.js"></script>
 </body>
 </html>
