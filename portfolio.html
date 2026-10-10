@@ -4,32 +4,115 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#123447">
-  <meta name="description" content="Portfolio de Bellota Soluciones Digitales. Casos de estudio próximamente.">
+  <meta name="description" content="Portfolio de Bellota Soluciones Digitales: webs, aplicaciones y herramientas a medida, con el problema que resuelve cada una.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Portfolio | Bellota Soluciones Digitales">
+  <meta property="og:description" content="Portfolio de Bellota Soluciones Digitales: webs, aplicaciones y herramientas a medida, con el problema que resuelve cada una.">
+  <meta property="og:locale" content="es_AR">
   <title>Portfolio | Bellota Soluciones Digitales</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2040%2040%22%3E%3Crect%20width%3D%2240%22%20height%3D%2240%22%20rx%3D%229%22%20fill%3D%22%23123447%22/%3E%3Cpath%20d%3D%22M12%2017c1-7%2015-7%2016%200%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%222.4%22%20stroke-linecap%3D%22round%22/%3E%3Cpath%20d%3D%22M11%2018h18c1%209-4%2014-9%2014s-10-5-9-14Z%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%222.2%22/%3E%3Cpath%20d%3D%22M20%2027c-1-5%201-8%205-11M20%2025c-2-3-4-4-6-4%22%20fill%3D%22none%22%20stroke%3D%22%2300BFA6%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="portfolio.css">
 </head>
-<body class="coming-soon-page">
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
   <header class="site-header">
     <div class="container nav-wrap">
       <a class="brand" href="index.html#inicio" aria-label="Bellota, inicio"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M12 17c1-7 15-7 16 0" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M11 18h18c1 9-4 14-9 14s-10-5-9-14Z" fill="currentColor" opacity=".16"/><path d="M11 18h18c1 9-4 14-9 14s-10-5-9-14Z" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M20 27c-1-5 1-8 5-11M20 25c-2-3-4-4-6-4" fill="none" stroke="#00BFA6" stroke-width="2" stroke-linecap="round"/></svg></span><span class="brand-copy"><strong>bellota</strong><small>soluciones digitales</small></span></a>
-      <nav class="main-nav simple-nav" aria-label="Navegación principal"><a href="index.html#inicio">Inicio</a><a href="index.html#proyectos">Proyectos</a><a href="index.html#servicios">Servicios</a><a class="active" href="portfolio.html">Portfolio</a><a href="index.html#contacto">Contacto</a><a class="nav-cta" href="index.html#contacto">Hablemos <span>↗</span></a></nav>
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+      <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
+        <a href="index.html#inicio">Inicio</a><a href="index.html#proyectos">Proyectos</a><a href="index.html#servicios">Servicios</a><a class="active" href="portfolio.html" aria-current="page">Portfolio</a><a href="index.html#contacto">Contacto</a>
+        <a class="nav-cta" href="index.html#contacto">Hablemos <span aria-hidden="true">↗</span></a>
+      </nav>
     </div>
   </header>
-  <main class="coming-main">
-    <div class="coming-decoration decoration-one"></div><div class="coming-decoration decoration-two"></div>
-    <div class="coming-content">
-      <span class="coming-icon">b<span>.</span></span>
-      <span class="eyebrow"><span class="eyebrow-dot"></span> ESTAMOS PREPARANDO ALGO</span>
-      <h1>Portfolio en <span>construcción.</span></h1>
-      <p>Estamos organizando los casos de estudio para mostrarte cómo nacen nuestros proyectos, qué problema resuelven y cómo los llevamos a la práctica.</p>
-      <span class="coming-label"><i></i> PRÓXIMAMENTE</span>
-      <a class="button button-primary" href="index.html#proyectos">Volver a los proyectos <span>↗</span></a>
-    </div>
+
+  <main id="contenido">
+    <section class="pf-hero">
+      <div class="container">
+        <h1>Webs y herramientas <span>que ya están funcionando.</span></h1>
+        <p class="lead">Cada proyecto nació de una necesidad concreta y hoy se puede usar. Mirá qué problema resuelve, para quién sirve y qué lo hace funcionar bien.</p>
+        <ul class="pf-lines">
+          <li><strong>Webs que presentan y venden</strong><span>Sitios claros para mostrar tu trabajo y recibir consultas.</span></li>
+          <li><strong>Sistemas que organizan</strong><span>Turnos, reservas y aplicaciones a medida para ordenar un proceso.</span></li>
+          <li><strong>Datos que se entienden</strong><span>Excel automatizado y dashboards para decidir con información.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="pf-cases" aria-label="Proyectos">
+      <div class="container">
+        <article class="case feature" id="celina-ph" style="--tint:#e6e8e1">
+        <div class="case-media"><div class="case-stage"><div class="shot"><div class="shot-bar"><i></i><i></i><i></i><span class="shot-url">celinaaguirreph.onrender.com</span></div><img src="img/celina-aguirre.jpg" width="1440" height="900" loading="lazy" alt="Captura de Celina Aguirre PH en computadora"></div></div></div>
+        <div class="case-body"><span class="feature-flag">Proyecto destacado</span><br><span class="case-kind">Sitio web · Fotografía de eventos</span>
+          <h2>Celina Aguirre PH</h2><p class="case-lead">Una plataforma para que una fotógrafa de eventos muestre galerías y venda fotografías directamente desde su propio sitio.</p><dl class="case-facts"><div><dt>El problema</dt><dd>Una fotógrafa necesita mostrar su trabajo con calidad y que los clientes puedan encontrar y elegir sus fotos de forma simple.</dd></div><div><dt>La solución</dt><dd>Una aplicación con galerías por evento, marca de agua automática, selección de fotos y compra online.</dd></div></dl><ul class="case-points"><li>Diseño limpio que deja lucir las fotos</li><li>Galería para recorrer y elegir con comodidad</li><li>Compra online con Mercado Pago</li><li>Marca personal presentada de forma profesional</li></ul><p class="case-fit"><strong>Ideal para:</strong> Fotógrafos, estudios y creativos que quieren mostrar y vender su trabajo online. Servicio relacionado: <a href="index.html#servicios">Portfolio profesional</a>.</p><ul class="case-tags"><li>Node.js · Express</li><li>Supabase</li><li>Cloudflare R2</li><li>Mercado Pago</li></ul><div class="case-actions"><a class="button button-primary" href="https://celinaaguirreph.onrender.com/" target="_blank" rel="noopener noreferrer">Ver proyecto <span aria-hidden="true">↗</span></a><a class="button button-secondary" href="https://wa.me/5491168023683?text=Hola%21%20Vi%20el%20portfolio%20de%20Bellota%20y%20me%20interesa%20algo%20como%20Celina%20Aguirre%20PH." target="_blank" rel="noopener noreferrer">Quiero algo así</a></div></div>
+      </article>
+        <div class="cards">
+        <article class="case card" id="turnero" style="--tint:#dcefeb"><div class="case-stage"><div class="shot"><div class="shot-bar"><i></i><i></i><i></i><span class="shot-url">mi-turnero-celina.netlify.app</span></div><img src="img/turnero.jpg" width="1440" height="900" loading="lazy" alt="Captura de Turnero web en computadora"></div></div>
+          <div class="card-body"><span class="case-kind">Aplicación web · Reservas</span><h2>Turnero web</h2><dl class="case-facts"><div><dt>El problema</dt><dd>Coordinar turnos por chat o planillas termina en horarios superpuestos y tiempo perdido.</dd></div><div><dt>La solución</dt><dd>Una agenda online para reservar en pocos pasos, con todo ordenado en un solo lugar.</dd></div></dl><ul class="case-points"><li>Reserva simple, pensada para el celular</li><li>Horarios claros, sin superposiciones</li><li>Agenda ordenada en un solo lugar</li></ul><p class="case-fit"><strong>Ideal para:</strong> Profesionales y negocios que atienden con turno. Servicio relacionado: <a href="index.html#servicios">Sistema de turnos y reservas</a>.</p><ul class="case-tags"><li>Reservas</li><li>Agenda online</li></ul><div class="case-actions"><a class="button button-primary" href="https://mi-turnero-celina.netlify.app/" target="_blank" rel="noopener noreferrer">Ver proyecto <span aria-hidden="true">↗</span></a><a class="button button-secondary" href="https://wa.me/5491168023683?text=Hola%21%20Vi%20el%20portfolio%20de%20Bellota%20y%20me%20interesa%20algo%20como%20Turnero%20web." target="_blank" rel="noopener noreferrer">Quiero algo así</a></div></div>
+        </article>
+        <article class="case card" id="prode-mundial" style="--tint:#e4eaf4"><div class="case-stage"><div class="shot"><div class="shot-bar"><i></i><i></i><i></i><span class="shot-url">pronostico-mundial-2026.streamlit.app</span></div><img src="img/prode-mundial.jpg" width="1440" height="900" loading="lazy" alt="Captura de Prode Mundial 2026 en computadora"></div></div>
+          <div class="card-body"><span class="case-kind">Aplicación · Pronósticos y ranking</span><h2>Prode Mundial 2026</h2><dl class="case-facts"><div><dt>El problema</dt><dd>Llevar pronósticos y puntajes por chat o planilla es confuso y se presta a errores.</dd></div><div><dt>La solución</dt><dd>Cada participante carga sus pronósticos y todos ven el puntaje y un ranking compartido.</dd></div></dl><ul class="case-points"><li>Pronósticos cargados por cada participante</li><li>Puntajes y ranking compartido</li><li>Pensado para grupos de amigos, familia o trabajo</li></ul><p class="case-fit"><strong>Ideal para:</strong> Grupos, comunidades y empresas que quieren una herramienta propia para un evento. Servicio relacionado: <a href="index.html#servicios">Aplicación web personalizada</a>.</p><ul class="case-tags"><li>Python</li><li>Streamlit</li><li>Pandas</li><li>Google Sheets</li></ul><div class="case-actions"><a class="button button-primary" href="https://pronostico-mundial-2026.streamlit.app/" target="_blank" rel="noopener noreferrer">Ver proyecto <span aria-hidden="true">↗</span></a><a class="button button-secondary" href="https://wa.me/5491168023683?text=Hola%21%20Vi%20el%20portfolio%20de%20Bellota%20y%20me%20interesa%20algo%20como%20Prode%20Mundial%202026." target="_blank" rel="noopener noreferrer">Quiero algo así</a></div></div>
+        </article>
+        <article class="case card" id="mi-galeria" style="--tint:#e9e5f0"><div class="case-stage"><div class="shot"><div class="shot-bar"><i></i><i></i><i></i><span class="shot-url">mi-galeria-privada.netlify.app</span></div><img src="img/mi-galeria.jpg" width="1440" height="900" loading="lazy" alt="Captura de Mi Galería en computadora"></div></div>
+          <div class="card-body"><span class="case-kind">Experiencia web · Galería visual</span><h2>Mi Galería</h2><dl class="case-facts"><div><dt>El problema</dt><dd>Mostrar imágenes en un álbum común limita cómo se presentan y se recorren.</dd></div><div><dt>La solución</dt><dd>Una experiencia propia, diseñada alrededor de las imágenes y sin depender de redes sociales.</dd></div></dl><ul class="case-points"><li>Experiencia visual centrada en las imágenes</li><li>Sitio estático, simple de mantener</li><li>Publicado en GitHub Pages</li></ul><p class="case-fit"><strong>Ideal para:</strong> Artistas, fotógrafos y marcas que quieren una vitrina visual propia. Servicio relacionado: <a href="index.html#servicios">Web institucional</a>.</p><ul class="case-tags"><li>HTML · CSS · JavaScript</li><li>Netlify</li></ul><div class="case-actions"><a class="button button-primary" href="https://mi-galeria-privada.netlify.app/" target="_blank" rel="noopener noreferrer">Ver proyecto <span aria-hidden="true">↗</span></a><a class="button button-secondary" href="https://wa.me/5491168023683?text=Hola%21%20Vi%20el%20portfolio%20de%20Bellota%20y%20me%20interesa%20algo%20como%20Mi%20Galer%C3%ADa." target="_blank" rel="noopener noreferrer">Quiero algo así</a></div></div>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="pf-data" aria-label="Datos y automatización">
+      <div class="container">
+        <article class="case data-panel" id="datos" style="--tint:#e3eef3">
+          <div class="case-media"><div class="case-stage"><div class="shot"><div class="shot-bar"><i></i><i></i><i></i><span class="shot-url">tu-dashboard</span></div><div class="data-placeholder" role="img" aria-label="Caso de automatización de Excel y Power BI en preparación"><span>Excel</span><b>+</b><span>Power BI</span><small>Próximo caso</small></div></div></div></div>
+          <div class="case-body">
+            <span class="case-kind">Datos y automatización</span>
+            <h2>Excel y Power BI<span class="badge-soon">Próximo caso</span></h2>
+            <p class="case-lead">También puedo ayudar a ordenar datos, reducir tareas repetitivas en Excel y convertir indicadores en reportes claros. El caso demostrativo está en preparación.</p>
+            <ul class="case-points"><li>Automatización de planillas y limpieza de datos</li><li>Fórmulas y procesos que ahorran trabajo manual</li><li>Dashboards con indicadores claros</li></ul>
+            <div class="case-actions"><a class="button button-secondary" href="https://wa.me/5491168023683?text=Hola%21%20Vi%20el%20portfolio%20de%20Bellota%20y%20me%20interesa%20automatizar%20Excel%20o%20armar%20un%20dashboard%20de%20Power%20BI." target="_blank" rel="noopener noreferrer">Consultar por datos</a></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="pf-process">
+      <div class="container">
+        <div class="section-heading"><div><h2>De la idea a algo <span>que funciona.</span></h2></div><p>Un proceso simple, con comunicación clara en cada paso.</p></div>
+        <ol class="steps">
+          <li><h3>Charla</h3><p>Nos contás qué necesitás resolver y para quién.</p></li>
+          <li><h3>Propuesta</h3><p>Definimos alcance y la solución más sensata para tu caso.</p></li>
+          <li><h3>Desarrollo</h3><p>Construimos y te mostramos avances para ajustar a tiempo.</p></li>
+          <li><h3>Entrega</h3><p>Publicamos y te explicamos cómo usarlo.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="pf-cta">
+      <div class="container contact-panel">
+        <div class="contact-copy">
+          <h2>¿Cuál es el próximo<br><span>proyecto?</span></h2>
+          <p>Contanos qué necesitás resolver y buscamos la solución digital que tenga sentido para vos.</p>
+          <div class="pf-cta-actions"><a class="button button-light" href="https://wa.me/5491168023683?text=Hola%21%20Vi%20el%20portfolio%20de%20Bellota%20y%20quiero%20contarles%20mi%20idea." target="_blank" rel="noopener noreferrer">Hablemos por WhatsApp <span aria-hidden="true">↗</span></a><a class="button button-ghost-light" href="index.html#servicios">Ver servicios</a></div>
+        </div>
+        <div class="contact-decoration" aria-hidden="true">b.</div>
+      </div>
+    </section>
   </main>
-  <footer class="site-footer"><div class="container footer-bottom standalone-footer"><span>© <span id="year"></span> Bellota Soluciones Digitales</span><a href="index.html#contacto">Hablemos ↗</a></div></footer>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <a class="brand brand-footer" href="index.html#inicio"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M12 17c1-7 15-7 16 0" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M11 18h18c1 9-4 14-9 14s-10-5-9-14Z" fill="currentColor" opacity=".16"/><path d="M11 18h18c1 9-4 14-9 14s-10-5-9-14Z" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M20 27c-1-5 1-8 5-11M20 25c-2-3-4-4-6-4" fill="none" stroke="#00BFA6" stroke-width="2" stroke-linecap="round"/></svg></span><span class="brand-copy"><strong>bellota</strong><small>soluciones digitales</small></span></a>
+      <p>Ideas reales. Soluciones digitales.</p>
+      
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> Bellota Soluciones Digitales</span><span>Hecho con intención <span class="footer-heart">✳</span></span></div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/5491168023683?text=Hola%21%20Vi%20el%20portfolio%20de%20Bellota%20y%20quiero%20contarles%20mi%20idea." target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.8a8.4 8.4 0 0 1-12.4 7.4L3 20.5l1.3-4.9a8.4 8.4 0 1 1 16.2-3.8Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M8.2 7.7c.2-.4.4-.4.7-.4h.5c.2 0 .4.1.5.4l.8 1.8c.1.2.1.4-.1.6l-.6.7c-.2.2-.2.4 0 .6.5.9 1.3 1.6 2.2 2.1.2.1.4.1.6-.1l.8-.9c.2-.2.4-.2.6-.1l1.7.8c.3.1.4.3.4.5 0 .4-.2 1.2-.7 1.6-.5.5-1.2.7-1.9.6-1.1-.2-2.5-.9-3.8-2.1-1.4-1.3-2.2-2.8-2.4-3.8-.2-.8.1-1.6.7-2.3Z" fill="currentColor"/></svg></a>
   <script src="script.js"></script>
 </body>
 </html>
